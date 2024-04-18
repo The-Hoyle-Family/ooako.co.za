@@ -3,6 +3,8 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: "One Of A Kind Orignal | OOAKO",
   description: "A memorial to a wonderful artist and mother!",
