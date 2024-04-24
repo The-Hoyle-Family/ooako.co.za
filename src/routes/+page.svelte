@@ -1,14 +1,67 @@
+<style lang="scss">
+.jumbotron {
+    width: 100%;
+    background: url("main-jumbo.png") no-repeat top ;
+    background-size: 100vw;
+    text-align: center;
+    color: #e4e4e4;
+    text-shadow: 2px 2px #000;
+    border-bottom: 2px solid #000;
+
+    .container {
+        padding: 7rem 3rem;
+    }
+}
+
+.container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+    .title {
+        font-size: 4rem;
+
+        &:first-child p {
+            margin-bottom: 0;
+        }
+
+        .sub {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+    }
+
+    .info p {
+        text-shadow: 1px 1px #000;
+    }
+}
+
+blockquote {
+    margin: 1.5rem auto;
+    max-width: 60vw;
+    text-align: center;
+}
+</style>
+
 <div class="jumbotron">
-    <div class="containter">
+    <div class="container">
         <div class="title">
-            Linda Ann Hoyle
+            <p>Linda Ann Hoyle</p>
+            <p class="sub">1952-2024 (72 years)</p>
         </div>
         <div class="info">
-            A mother, artist and light of the community
+            <p>A mother, artist and light of the community</p>
+            <p>Someone who was loved by all and hated by none</p>
+            <p>Her creativity knew no bounds, art was her life</p>
+            <p>Her smile lit up any room, made any place feel like home</p>
+            <p></p>
         </div>
     </div>
 </div>
-<!--
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
--->
+<div class="container">
+    <blockquote>
+        <p>Some text here</p>
+        <footer>— Andrew Hoyle</footer>
+    </blockquote>
+</div>
+
