@@ -1,7 +1,11 @@
+<script>
+    import Quote from "$lib/Quote.svelte";
+</script>
+
 <style lang="scss">
 .jumbotron {
     width: 100%;
-    background: url("main-jumbo.png") no-repeat top ;
+    background: url("/main-jumbo.png") no-repeat top ;
     background-size: 100vw;
     text-align: center;
     color: #e4e4e4;
@@ -34,12 +38,11 @@
     .info p {
         text-shadow: 1px 1px #000;
     }
-}
 
-blockquote {
-    margin: 1.5rem auto;
-    max-width: 60vw;
-    text-align: center;
+    &.inline {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
 }
 </style>
 
@@ -58,10 +61,21 @@ blockquote {
         </div>
     </div>
 </div>
-<div class="container">
-    <blockquote>
-        <p>Some text here</p>
-        <footer>— Andrew Hoyle</footer>
-    </blockquote>
+<div class="container inline">
+    <Quote author="Andrew H">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis massa quis augue luctus, nec iaculis orci maximus. Pellentesque finibus. 
+    </Quote>
+    <Quote author="Tagan H">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis massa quis augue luctus, nec iaculis orci maximus. Pellentesque finibus. 
+    </Quote>
+    <Quote author="Lee H">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis massa quis augue luctus, nec iaculis orci maximus. Pellentesque finibus. 
+    </Quote>
+    <Quote author="Zara DB">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis massa quis augue luctus, nec iaculis orci maximus. Pellentesque finibus. 
+    </Quote>
+    <Quote author="Jacques DB">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis massa quis augue luctus, nec iaculis orci maximus. Pellentesque finibus. 
+    </Quote>
 </div>
 
