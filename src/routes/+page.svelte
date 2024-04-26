@@ -31,17 +31,15 @@
 			care of.
 		</Quote>
 	</div>
-	<div><Quote author="Lee H">What, mom is dead? Oh, ok. Can you take me to the pub?</Quote></div>
+	<div><Quote author="Lee H">Mom never stopped caring and worrying about me, she will be missed.</Quote></div>
 	<div>
 		<Quote author="Zara DB">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis massa quis augue luctus,
-			nec iaculis orci maximus. Pellentesque finibus.
+			Mom was my best friend.
 		</Quote>
 	</div>
 	<div>
 		<Quote author="Jacques DB">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis massa quis augue luctus,
-			nec iaculis orci maximus. Pellentesque finibus.
+			Linda was a great mother-in-law!
 		</Quote>
 	</div>
 </div>

@@ -8,7 +8,7 @@ export async function load() {
 			['Gallery', '/gallery'],
 			['Family', '/family'],
 			['Blog', '/blog'],
-			['Test', '/test']
+			['Memorial', '/memorial']
 		],
 		socials: [
 			{
