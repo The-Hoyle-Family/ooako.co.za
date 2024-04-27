@@ -34,7 +34,7 @@
 	<div><Quote author="Lee H">Mom never stopped caring and worrying about me, she will be missed.</Quote></div>
 	<div>
 		<Quote author="Zara DB">
-			Mom was my best friend.
+			Your life was a masterpiece, painted with vibrant hues of love and joy. In every step we take and every song we hear, your spirit dances alongside us, a beautiful reminder of the joy you brought into our lives.
 		</Quote>
 	</div>
 	<div>
