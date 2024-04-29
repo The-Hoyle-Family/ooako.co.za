@@ -1,10 +1,14 @@
+<script>
+    import YouTubeEmbed from '$lib/YoutubeEmbed.svelte'
+</script>
+
 <div class="video">
-    <div class="title">
-        <h1>Linda Hoyle's Memorial</h1>
-    </div>
-    <div class="container">
-<iframe width="1200" height="675" src="https://www.youtube-nocookie.com/embed/WTRzrZ46TR0?si=Bc0SkmgMBGiOl8xa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+	<div class="title">
+		<h1>Linda Hoyle's Memorial</h1>
+	</div>
+	<div class="container">
+		<YouTubeEmbed url="https://www.youtube-nocookie.com/embed/WTRzrZ46TR0?si=Bc0SkmgMBGiOl8xa"/>
+	</div>
 </div>
 
 <style lang="scss">
