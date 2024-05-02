@@ -12,7 +12,7 @@
 	const images = Object.keys(pictures).map((path) => {
 		let img = pictures[path];
 		let alt = img.split('\\').pop()?.split('/').pop();
-		return {src: img, height: 100, width: 100, alt: alt ? alt : "an image"}
+		return {src: img, height: 1000, width: 1000, alt: alt ? alt : "an image"}
 	});
 </script>
 
@@ -23,3 +23,12 @@
 	</div>
 	<Photoswipe galleryID="artwork" images={images}/>
 </div>
+
+<style lang="scss">
+	.gallery {
+		.title {
+			text-align: center;
+			font-size: 2rem;
+		}
+	}
+</style>
