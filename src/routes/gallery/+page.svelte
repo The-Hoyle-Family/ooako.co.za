@@ -9,7 +9,11 @@
 		}
 	);
 
-	const images = Object.keys(pictures).map((path) => {return {src: pictures[path], height: 100, width: 100, alt: ""}});
+	const images = Object.keys(pictures).map((path) => {
+		let img = pictures[path];
+		let alt = img.split('\\').pop()?.split('/').pop();
+		return {src: img, height: 100, width: 100, alt: alt ? alt : "an image"}
+	});
 </script>
 
 

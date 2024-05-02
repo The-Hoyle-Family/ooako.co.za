@@ -31,8 +31,8 @@
             target="_blank"
             rel="noreferrer"
         >
-            <!--<img src={image.thumbnailURL} alt="" />-->
-            <img src={image.src} alt="">
+            <!--<img src={image.thumbnailURL} alt={image.alt} />-->
+            <img src={image.src} alt={image.alt}>
             </a>
     {/each}
 </div>
