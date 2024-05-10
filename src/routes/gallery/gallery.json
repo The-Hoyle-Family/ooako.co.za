@@ -1,3 +1,7 @@
 [
-    {"alt": "Lion by Linda Hoyle", "src": "/gallery/lion-by-linda-hoyle.jpg", "width": 1000, "height": 1000, "detail": "A painting of a Lion completed during year {}"}
+    {"alt": "Lion by Linda Hoyle", "src": "/gallery/lion-by-linda-hoyle.jpg", "width": 1000, "height": 1000, "detail": "A painting of a Lion completed during year {}"},
+    {"alt": "Frog on Plant Leaf by Linda Hoyle", "src": "/gallery/frog-on-plant.jpg", "width": 1776, "height": 1184, "detail": "A painting of a Lion completed during year {}"},
+    {"alt": "A Young Lady in a Blue Dress holding Flowers by Linda Hoyle", "src": "/gallery/lady-by-lake.jpg", "width": 1184, "height": 1776, "detail": "A painting of a Lion completed during year {}"},
+    {"alt": "A painting of Table Mountian with the ocean in front by Linda Hoyle", "src": "/gallery/table-mountain.jpg", "width": 1776, "height": 1168, "detail": "A painting of a Lion completed during year {}"},
+    {"alt": "Blue Man by Linda Hoyle", "src": "/gallery/blue-man.jpg", "width": 1168, "height": 1776, "detail": "A painting of a Blue Man completed during year {}"}
 ]
