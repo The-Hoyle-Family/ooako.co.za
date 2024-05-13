@@ -1,6 +1,8 @@
 <script>
 	import PhotoSwipeLightbox from 'photoswipe/lightbox';
+	import PhotoSwipeDynamicCaption from 'photoswipe-dynamic-caption-plugin';
 	import 'photoswipe/style.css';
+	import 'photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.css'
 	import { onMount } from 'svelte';
 
 	/**
@@ -8,7 +10,7 @@
 	 */
 	export let galleryID;
 	/**|{html: string}[]
-	 * @type {{src: string, width: number, height: number, alt: string, srcset?: string}[]}
+	 * @type {{src: string, width: number, height: number, alt: string, srcset?: string, detail?: string}[]}
 	 */
 	export let images;
 
@@ -17,6 +19,10 @@
 			gallery: '#' + galleryID,
 			children: 'a',
 			pswpModule: () => import('photoswipe')
+		});
+		const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
+			// Plugins options, for example:
+			type: 'auto',
 		});
 		lightbox.init();
 	});
@@ -33,6 +39,7 @@
 		>
 			<!--<img src={image.thumbnailURL} alt={image.alt} />-->
 			<img src={image.src} alt={image.alt} />
+			<span class="pswp-caption-conten">{image.detail}</span>
 		</a>
 	{/each}
 </div>
