@@ -1,21 +1,135 @@
 [
-    {"alt": "Neslon Mandela by Linda Hoyle", "src": "/gallery/neslon-mandela.jpg", "width": 960, "height": 1280, "detail": "A painting of a Lion completed during year {}"},
-    {"alt": "A woman playing a saxophone by Linda Hoyle", "src": "/gallery/lady-playing-saxohpone.jpg", "width": 960, "height": 1280, "detail": "A painting of a Lion completed during year {}"},
-    {"alt": "Frog on Plant Leaf by Linda Hoyle", "src": "/gallery/frog-on-plant.jpg", "width": 1776, "height": 1184, "detail": "A painting of a Lion completed during year {}"},
-    {"alt": "A Young Lady in a Blue Dress holding Flowers by Linda Hoyle", "src": "/gallery/lady-by-lake.jpg", "width": 1184, "height": 1776, "detail": "A painting of a Lion completed during year {}"},
-    {"alt": "A painting of Table Mountian with the ocean in front by Linda Hoyle", "src": "/gallery/table-mountain.jpg", "width": 1776, "height": 1168, "detail": "A painting of a Lion completed during year {}"},
-    {"alt": "A painting of Layers by Linda Hoyle", "src": "/gallery/layers.jpg", "width": 1856, "height": 1280, "detail": "A painting of a Lion completed during year {}"},
-    {"alt": "A painting of Two Zebras by Linda Hoyle", "src": "/gallery/zebras.jpg", "width": 1776, "height": 1168, "detail": "A painting of a Lion completed during year {}"},
-    {"alt": "A painting of a Lion by Linda Hoyle", "src": "/gallery/lion.jpg", "width": 1792, "height": 1360, "detail": "A painting of a Lion completed during year {}"},
-    {"alt": "A painting of a Lake by Linda Hoyle", "src": "/gallery/lake.jpg", "width": 1680, "height": 1216, "detail": "A painting of a Lion completed during year {}"},
-    {"alt": "Blue Man by Linda Hoyle", "src": "/gallery/blue-man.jpg", "width": 1168, "height": 1776, "detail": "A painting of a Blue Man completed during year {}"},
-    {"alt": "A painting of {} by Linda Hoyle", "src": "/gallery/acrylic-waves-long.jpg", "width": 960, "height": 1280, "detail": "A painting of a Blue Man completed during year {}"},
-    {"alt": "A painting of {} by Linda Hoyle", "src": "/gallery/3b3-green-acrylic.jpg", "width": 960, "height": 1280, "detail": "A painting of a Blue Man completed during year {}"},
-    {"alt": "A painting of {} by Linda Hoyle", "src": "/gallery/3b3-red-acrylic.jpg", "width": 960, "height": 1280, "detail": "A painting of a Blue Man completed during year {}"},
-    {"alt": "A painting of {} by Linda Hoyle", "src": "/gallery/3b3-red-acrylic-small.jpg", "width": 960, "height": 1280, "detail": "A painting of a Blue Man completed during year {}"},
-    {"alt": "A painting of {} by Linda Hoyle", "src": "/gallery/3b3-yellow-acrylic.jpg", "width": 960, "height": 1280, "detail": "A painting of a Blue Man completed during year {}"},
-    {"alt": "A painting of {} by Linda Hoyle", "src": "/gallery/acrylic-seafoam.jpg", "width": 960, "height": 1280, "detail": "A painting of a Blue Man completed during year {}"},
-    {"alt": "A painting of {} by Linda Hoyle", "src": "/gallery/acrylic-purple-green-shifts.jpg", "width": 960, "height": 1280, "detail": "A painting of a Blue Man completed during year {}"},
-    {"alt": "A painting of {} by Linda Hoyle", "src": "/gallery/acrylic-blue-forest.jpg", "width": 960, "height": 1280, "detail": "A painting of a Blue Man completed during year {}"},
-    {"alt": "A painting of {} by Linda Hoyle", "src": "/gallery/acrylic-void.jpg", "width": 960, "height": 1280, "detail": "A painting of a Blue Man completed during year {}"}
+	{
+		"alt": "Neslon Mandela by Linda Hoyle",
+		"src": "/gallery/neslon-mandela.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Lion completed during year {}"
+	},
+	{
+		"alt": "A woman playing a saxophone by Linda Hoyle",
+		"src": "/gallery/lady-playing-saxophone.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Lion completed during year {}"
+	},
+	{
+		"alt": "Frog on Plant Leaf by Linda Hoyle",
+		"src": "/gallery/frog-on-plant.jpg",
+		"width": 1776,
+		"height": 1184,
+		"detail": "A painting of a Lion completed during year {}"
+	},
+	{
+		"alt": "A Young Lady in a Blue Dress holding Flowers by Linda Hoyle",
+		"src": "/gallery/lady-by-lake.jpg",
+		"width": 1184,
+		"height": 1776,
+		"detail": "A painting of a Lion completed during year {}"
+	},
+	{
+		"alt": "A painting of Table Mountian with the ocean in front by Linda Hoyle",
+		"src": "/gallery/table-mountain.jpg",
+		"width": 1776,
+		"height": 1168,
+		"detail": "A painting of a Lion completed during year {}"
+	},
+	{
+		"alt": "A painting of Layers by Linda Hoyle",
+		"src": "/gallery/layers.jpg",
+		"width": 1856,
+		"height": 1280,
+		"detail": "A painting of a Lion completed during year {}"
+	},
+	{
+		"alt": "A painting of Two Zebras by Linda Hoyle",
+		"src": "/gallery/zebras.jpg",
+		"width": 1776,
+		"height": 1168,
+		"detail": "A painting of a Lion completed during year {}"
+	},
+	{
+		"alt": "A painting of a Lion by Linda Hoyle",
+		"src": "/gallery/lion.jpg",
+		"width": 1792,
+		"height": 1360,
+		"detail": "A painting of a Lion completed during year {}"
+	},
+	{
+		"alt": "A painting of a Lake by Linda Hoyle",
+		"src": "/gallery/lake.jpg",
+		"width": 1680,
+		"height": 1216,
+		"detail": "A painting of a Lion completed during year {}"
+	},
+	{
+		"alt": "Blue Man by Linda Hoyle",
+		"src": "/gallery/blue-man.jpg",
+		"width": 1168,
+		"height": 1776,
+		"detail": "A painting of a Blue Man completed during year {}"
+	},
+	{
+		"alt": "A painting of {} by Linda Hoyle",
+		"src": "/gallery/acrylic-waves-long.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Blue Man completed during year {}"
+	},
+	{
+		"alt": "A painting of {} by Linda Hoyle",
+		"src": "/gallery/3by3-green-acrylic.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Blue Man completed during year {}"
+	},
+	{
+		"alt": "A painting of {} by Linda Hoyle",
+		"src": "/gallery/3by3-red-acrylic.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Blue Man completed during year {}"
+	},
+	{
+		"alt": "A painting of {} by Linda Hoyle",
+		"src": "/gallery/3by3-red-acrylic-small.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Blue Man completed during year {}"
+	},
+	{
+		"alt": "A painting of {} by Linda Hoyle",
+		"src": "/gallery/3by3-yellow-acrylic.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Blue Man completed during year {}"
+	},
+	{
+		"alt": "A painting of {} by Linda Hoyle",
+		"src": "/gallery/acrylic-seafoam.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Blue Man completed during year {}"
+	},
+	{
+		"alt": "A painting of {} by Linda Hoyle",
+		"src": "/gallery/acrylic-purple-green-shifts.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Blue Man completed during year {}"
+	},
+	{
+		"alt": "A painting of {} by Linda Hoyle",
+		"src": "/gallery/acrylic-blue-forest.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Blue Man completed during year {}"
+	},
+	{
+		"alt": "A painting of {} by Linda Hoyle",
+		"src": "/gallery/acrylic-void.jpg",
+		"width": 960,
+		"height": 1280,
+		"detail": "A painting of a Blue Man completed during year {}"
+	}
 ]
